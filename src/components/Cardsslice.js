@@ -1,11 +1,13 @@
 import React from 'react';
+import Accordians from './Accordians';
 import "./cardslice.css";
 
 const Cardsslice = (props) => {
  console.log(props)
   return (
      <div className="card-slice">
-       <h1 className="slice-header">{props.heading}</h1>
+       {/* <h1 className="slice-header">{props.heading}</h1> */}
+        <Accordians heading={props.heading}/>
         <div className="slice-component">
             <div>
                 <p className="slice-title">{props.title1}</p>

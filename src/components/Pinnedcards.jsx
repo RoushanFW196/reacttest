@@ -3,13 +3,9 @@ import React from 'react'
 
 const Pinnedcards = () => {
   return (
-    <div>
+    <div style={{width:"600px" ,height:"600px",backgroundColor:"yellow"}}>
 
-
-
-
-
-        
+    
     </div>
   )
 }
