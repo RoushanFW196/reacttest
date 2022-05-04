@@ -1,0 +1,48 @@
+
+.card-slice{
+    width:400px;
+    height:100px;
+    border:1px solid gray;
+    box-shadow: 1px 2px 1px 0px;
+    margin:7px;
+}
+
+.slice-component{
+    display:flex;
+    justify-content:space-around;
+}
+.slice-component:hover{
+    background-color:rgb(207, 160, 160);
+    padding:6px;
+}
+
+.slice-items:hover{
+    background-color:gray;
+}
+
+
+
+
+.slice-header{
+    font-size:15px;
+    padding:2px 18px;
+    margin-bottom:-8px;
+    font-weight: 400;
+}
+.slice-title{
+    font-size:14px;
+
+}
+.redspan{
+    background-color:red;
+    padding:2px 4px;
+    color:white;
+}
+.grayspan{
+    background-color:gray;
+    padding:2px 10px;
+}
+.greenspan{
+    background-color:green;
+    padding:2px 12px;
+}
